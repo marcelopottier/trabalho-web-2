@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="">
+            <h3 class="" id="monthAndYear"></h3>
+            <table class="" id="calendar">
+                <thead>
+                <tr>
+                    <th>D</th>
+                    <th>S</th>
+                    <th>T</th>
+                    <th>Q</th>
+                    <th>Q</th>
+                    <th>S</th>
+                    <th>S</th>
+                </tr>
+                </thead>
+    
+                <tbody id="calendar-body">
+    
+                </tbody>
+            </table>
+    
+            <div class="">
+    
+                <button class="" id="previous" onclick="previous()">Previous</button>
+    
+                <button class="" id="next" onclick="next()">Next</button>
+            </div>
+            <br/>
+            <form class="form-inline">
+                <label class="" for="month">Jump To: </label>
+                <select class="" name="month" id="month" onchange="jump()">
+                    <option value=0>Janeiro</option>
+                    <option value=1>Fevereiro</option>
+                    <option value=2>Março</option>
+                    <option value=3>Abril</option>
+                    <option value=4>Maio</option>
+                    <option value=5>Junho</option>
+                    <option value=6>Julho</option>
+                    <option value=7>Agosto</option>
+                    <option value=8>Setembro</option>
+                    <option value=9>Outubro</option>
+                    <option value=10>Novembro</option>
+                    <option value=11>Dezembro</option>
+                </select>
+    
+    
+                <label for="year"></label><select class="" name="year" id="year" onchange="jump()">
+                <option value=2023>2023</option>
+            </select></form>
+        </div>
+    </div>
+    </body>
+    <script src="src/js/script.js"></script>
+</html>
