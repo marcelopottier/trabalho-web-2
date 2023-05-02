@@ -1,24 +1,79 @@
-today = new Date();
+var events;
+//importando os eventos
+function httpRequest(){
+    return new Promise(function(resolve, reject){
+        var http = new XMLHttpRequest();
+        http.open("GET", "events.json");
+        http.send();
+        http.onload = function() {
+            if(http.status === 200){
+                let events = JSON.parse(this.responseText);
+                resolve(events);
+            }else {
+                reject(new Error('Erro ao executar requisição do JSON.'));
+            };
+        }
+    });
+}
+httpRequest().then(function(response){
+    
+    events = response;
 
-currentMonth = today.getMonth();
-currentYear = today.getFullYear();
-selectYear = document.getElementById("year");
-selectMonth = document.getElementById("month");
+    currentMonth = today.getMonth();
+    currentYear = today.getFullYear();
+    selectYear = 2023;
+    selectMonth = document.getElementById("month");
+
+    showCalendar(currentYear, currentMonth);
+    fecthEvents(currentMonth);
+
+}).catch(function(error) {
+    
+    console.error(error);
+  
+});
+
+//calendario
+today = new Date();
 
 months = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
 
 monthAndYear = document.getElementById("monthAndYear");
 
-showCalendar(currentYear, currentMonth);
+function next(){
+    currentMonth = (currentMonth + 1) % 12;
+    showCalendar(currentYear, currentMonth);
+    fecthEvents(currentMonth);
+}
+
+function previous(){
+    currentMonth = (currentMonth === 0) ? 11 : currentMonth - 1;
+    showCalendar(currentYear, currentMonth);
+    fecthEvents(currentMonth);
+}
 
 function jump(){
     currentMonth = parseInt(selectMonth.value);
-    currentYear = parseInt(selectYear.value);
+    currentYear = 2023;
     showCalendar(currentYear, currentMonth);
+    fecthEvents(currentMonth);
+}
+function fecthEvents(month){
+    eventsDiv = document.getElementById("events");
+    eventsDiv.innerHTML = "";
+
+        let output = "";
+
+        for(let item of events[month]){
+            output += `
+                <p class="event-day">${item.dia} - ${item.evento}</p>
+            `;
+            document.querySelector(".events").innerHTML = output;
+        }
 }
 
 function showCalendar(year, month){
-    firstday = (new Date(year, month));
+    firstday = (new Date(year, month)).getDay();
 
     table = document.getElementById("calendar-body");
 
@@ -50,15 +105,21 @@ function showCalendar(year, month){
                 cell = document.createElement("td");
                 celltext = document.createTextNode(date);
                 if(date === today.getDate() && year === today.getFullYear() && month === today.getMonth()){
-                    cell.classList.add("bg-info");
+                    cell.classList.add("today");
                 }
+
+                for(let item of events[month]){
+                    if(date == item.dia){
+                        cell.classList.add("today");
+                    }
+                }
+                
                 cell.appendChild(celltext);
                 row.appendChild(cell);
                 date++;
             }
-
+            
         }
-
         table.appendChild(row);
     }
 }

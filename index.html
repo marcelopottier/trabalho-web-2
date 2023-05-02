@@ -5,58 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="src/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Calendário Acadêmico</title>
 </head>
 <body>
     <div class="container">
-        <div class="">
-            <h3 class="" id="monthAndYear"></h3>
-            <table class="" id="calendar">
-                <thead>
-                <tr>
-                    <th>D</th>
-                    <th>S</th>
-                    <th>T</th>
-                    <th>Q</th>
-                    <th>Q</th>
-                    <th>S</th>
-                    <th>S</th>
-                </tr>
-                </thead>
-    
-                <tbody id="calendar-body">
-    
-                </tbody>
-            </table>
-    
-            <div class="">
-    
-                <button class="" id="previous" onclick="previous()">Previous</button>
-    
-                <button class="" id="next" onclick="next()">Next</button>
+        <div class="wrapper">
+            <div class="calendar-div item">
+                <h3 class="tbl-h3" id="monthAndYear"></h3>
+                <table class="calendar-table" id="calendar">
+                    <thead>
+                        <tr>
+                            <th>D</th>
+                            <th>S</th>
+                            <th>T</th>
+                            <th>Q</th>
+                            <th>Q</th>
+                            <th>S</th>
+                            <th>S</th>
+                        </tr>
+                    </thead>
+                    <tbody id="calendar-body">
+                    </tbody>
+                </table>
+                <div class="options">
+                    <button class="button" id="previous" onclick="previous()">Anterior</button>
+                    <button class="button" id="next" onclick="next()">Próximo</button>
+                </div>
+                <form class="form">
+                    <label class="" for="month">Vá para:</label>
+                    <select class="" name="month" id="month" onchange="jump()">
+                        <option value=0>Janeiro</option>
+                        <option value=1>Fevereiro</option>
+                        <option value=2>Março</option>
+                        <option value=3>Abril</option>
+                        <option value=4>Maio</option>
+                        <option value=5>Junho</option>
+                        <option value=6>Julho</option>
+                        <option value=7>Agosto</option>
+                        <option value=8>Setembro</option>
+                        <option value=9>Outubro</option>
+                        <option value=10>Novembro</option>
+                        <option value=11>Dezembro</option>
+                    </select>
+                </form>
             </div>
-            <br/>
-            <form class="form-inline">
-                <label class="" for="month">Jump To: </label>
-                <select class="" name="month" id="month" onchange="jump()">
-                    <option value=0>Janeiro</option>
-                    <option value=1>Fevereiro</option>
-                    <option value=2>Março</option>
-                    <option value=3>Abril</option>
-                    <option value=4>Maio</option>
-                    <option value=5>Junho</option>
-                    <option value=6>Julho</option>
-                    <option value=7>Agosto</option>
-                    <option value=8>Setembro</option>
-                    <option value=9>Outubro</option>
-                    <option value=10>Novembro</option>
-                    <option value=11>Dezembro</option>
-                </select>
-    
-    
-                <label for="year"></label><select class="" name="year" id="year" onchange="jump()">
-                <option value=2023>2023</option>
-            </select></form>
+            <div class="events item" id="events">
+            </div>
         </div>
     </div>
     </body>
