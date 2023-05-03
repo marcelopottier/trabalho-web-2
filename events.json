@@ -1,178 +1,680 @@
 {
     "0":[
         {
-            "dia": 1,
+            "dia-comeco": 1,
+            "dia-fim": 0,
             "evento": "Feriado nacional: Confraternização Universal",
             "tipo": 1
         },
         {
-            "dia": 31,
+            "dia-comeco": 31,
+            "dia-fim": 0,
             "evento": "Término das férias para os professores,tutores e preceptores que gozaram de 30 dias de férias",
             "tipo": 0
         }
     ],
     "1": [     
         {
-            "dia": 1,
+            "dia-comeco": 1,
+            "dia-fim": 0,
             "evento": "Posse dos novos coordenadores de curso",
             "tipo": 0
         },
         {
-            "dia": [6,7,8,9,10],
+            "dia-comeco": 6,
+            "dia-fim": 10,
             "evento": "Profissionalização Docente Intensiva",
             "tipo": 0
         },
         {
-            "dia": 11,
+            "dia-comeco": 11,
+            "dia-fim": 0,
             "evento": "Colação de grau - Odontologia",
             "tipo": 0
         },
         {
-            "dia": [13,14,15,16,17],
+            "dia-comeco": 13,
+            "dia-fim": 17,
             "evento": "Planejamento pedagógico",
             "tipo": 0
 
         },
         {
-            "dia": 15,
+            "dia-comeco": 15,
+            "dia-fim": 0,
             "evento": "Reunião do Comitê de Ética em Pesquisa",
             "tipo": 0
         },
         {
-            "dia": [15,16],
+            "dia-comeco": 15,
+            "dia-fim": 16,
             "evento": "Colação de grau especial em Joinville",
             "tipo": 0
         },
         {
-            "dia": 16,
+            "dia-comeco": 16,
+            "dia-fim": 0,
             "evento": "Data limite para envio de projetos depesquisa para análise do Comitê de Ética em Pesquisa",
             "tipo": 0
         },
         {
-            "dia": [20,21],
+            "dia-comeco": 20,
+            "dia-fim": 21,
             "evento": "(carnaval) - Recesso acadêmico ",
             "tipo": 1
         },
         {
-            "dia": 22,
+            "dia-comeco": 22,
+            "dia-fim": 0,
             "evento": "Início das aulas para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia",
             "tipo": 0
         },
         {
-            "dia": 22,
+            "dia-comeco": 22,
+            "dia-fim": 0,
             "evento": "Recesso acadêmico até 12h",
             "tipo": 0
         },
         {
-            "dia": 28,
+            "dia-comeco": 28,
+            "dia-fim": 0,
             "evento": "Último dia para entrega do Relatório de Atividades/2022 do Núcleo Docente Estruturante (NDE)",
             "tipo": 0
         }
     ],
     "2":[
         {
-            "dia": 1,
+            "dia-comeco": 1,
+            "dia-fim": 0,
             "evento": "Início das aulas",
             "tipo": 2
         },
         {
-            "dia": 4,
+            "dia-comeco": 4,
+            "dia-fim": 0,
             "evento": "Colação de grau - Direito, do Campus Joinville",
             "tipo": 0
         },
         {
-            "dia": 4,
-            "evento": "Colação de grau - Direito, do Campus Joinville",
-            "tipo": 0
-        },
-        {
-            "dia": 4,
+            "dia-comeco": 4,
+            "dia-fim": 0,
             "evento": "Colação de grau - Direito (matutino e noturno), Gestão Comercial e Engenharia Mecânica, do Campus São Bento do Sul",
             "tipo": 0
         },
         {
-            "dia": 7,
+            "dia-comeco": 7,
+            "dia-fim": 0,
             "evento": "Último dia para os alunos matriculados em 2023/1 (regime anual) e 2023-1 (regime semestral) requererem exame de aproveitamento de estudos, dispensa de disciplina e matrícula em disciplina extracurricular e fora da série",
             "tipo": 0
         },
         {
-            "dia": 8,
+            "dia-comeco": 8,
+            "dia-fim": 0,
             "evento": "Reunião do Comitê de Ética em Pesquisa",
             "tipo": 0
         },
         {
-            "dia": 9,
+            "dia-comeco": 9,
+            "dia-fim": 0,
             "evento": "Feriado municipal em Joinville: aniversário da cidade",
             "tipo": 1
         },
         {
-            "dia": [10,11],
+            "dia-comeco": 10,
+            "dia-fim": 11,
             "evento": "Recesso acadêmico em Joinville",
             "tipo": 1
         },
         {
-            "dia": 15,
+            "dia-comeco": 15,
+            "dia-fim": 0,
             "evento": "Último dia para os alunos matriculados em 2022/1 (regime anual) e 2022-2 (regime semestral) solicitarem matrícula fora do prazo",
             "tipo": 0
         },
         {
-            "dia": 18,
+            "dia-comeco": 18,
+            "dia-fim": 0,
             "evento": "Colação de grau - Farmácia, Naturologia, Psicologia, Enfermagem e Ciências Biológicas",
             "tipo": 0
         },
         {
-            "dia": [22,23],
+            "dia-comeco": 22,
+            "dia-fim": 23,
             "evento": "Colação de grau especial em Joinville",
             "tipo": 0
         },
         {
-            "dia": 23,
+            "dia-comeco": 23,
+            "dia-fim": 0,
             "evento": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa",
             "tipo": 0
         },
         {
-            "dia": 25,
+            "dia-comeco": 25,
+            "dia-fim": 0,
             "evento": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa",
             "tipo": 0
         },
         {
-            "dia": 27,
+            "dia-comeco": 27,
+            "dia-fim": 0,
             "evento": " Último dia para os alunos matriculados em 2023/1 (regime anual) e 2023-1 (regime semestral) requererem alteração de matrícula",
             "tipo": 0
         }
     ],
     "3":[
-
-    ],
-    "4":[
         {
-            "dia": 1,
+            "dia-comeco": 1,
+            "dia-fim": 0,
             "evento": "Colação de grau - Engenharia Mecânica, Engenharia de Produção e Engenharia Civil, do Campus Joinville",
             "tipo": 0
         },
         {
-            "dia": 6,
+            "dia-comeco": 6,
+            "dia-fim": 0,
             "evento": "Colação de grau especial em São Bento do Sul",
             "tipo": 0
         },
         {
-            "dia": 7,
+            "dia-comeco": 7,
+            "dia-fim": 0,
             "evento": "Feriado nacional: Sexta-feira da Paixão",
             "tipo": 1
         },
         {
-            "dia": 8,
+            "dia-comeco": 8,
+            "dia-fim": 0,
             "evento": "Recesso acadêmico",
             "tipo": 1
         },
         {
-            "dia": 9,
+            "dia-comeco": 9,
+            "dia-fim": 0,
             "evento": "Páscoa",
             "tipo": 1
         },
         {
-            "dia": 12,
+            "dia-comeco": 12,
+            "dia-fim": 0,
             "evento": "Reunião do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 12,
+            "dia-fim": 13,
+            "evento": "Integração dos novos profissionais da educação",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 15,
+            "dia-fim": 0,
+            "evento": "Feriado municipal em São Francisco do Sul: aniversário da cidade",
+            "tipo": 1
+        },
+        {
+            "dia-comeco": 15,
+            "dia-fim": 0,
+            "evento": "Colação de grau - Engenharia Química, Engenharia Ambiental e Sanitária e Arquitetura e Urbanismo, do Campus Joinville",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 20,
+            "dia-fim": 0,
+            "evento": " Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 21,
+            "dia-fim": 0,
+            "evento": "Feriado nacional: Tiradentes",
+            "tipo": 1
+        },
+        {
+            "dia-comeco": 22,
+            "dia-fim": 0,
+            "evento": "Recesso acadêmico",
+            "tipo": 1
+        },
+        {
+            "dia-comeco": 28,
+            "dia-fim": 0,
+            "evento": "Último dia para entrega do Plano Anual de Trabalho do Núcleo Docente Estruturante (NDE)",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 28,
+            "dia-fim": 0,
+            "evento": "Último dia para os alunos que renovaram matrícula entregarem o contrato de prestação de serviços educacionais à Central de Atendimento Acadêmico",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 29,
+            "dia-fim": 0,
+            "evento": "Colação de grau - Engenharia de Software e Sistemas de Informação",
+            "tipo": 0
+        }
+    ],
+    "4": [
+        {
+            "dia-comeco": 1,
+            "dia-fim": 0,
+            "evento": "Feriado nacional: Dia do Trabalho",
+            "tipo": 1
+        },
+        {
+            "dia-comeco": 6,
+            "dia-fim": 0,
+            "evento": "Colação de grau - Design, Fotografia e Gastronomia",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 8,
+            "dia-fim": 0,
+            "evento": "Último dia para publicação de notas do bimestre",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 10,
+            "dia-fim": 0,
+            "evento": "Reunião do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 13,
+            "dia-fim": 0,
+            "evento": "Colação de grau – Ciências Biológicas (Biologia Marinha)",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 25,
+            "dia-fim": 0,
+            "evento": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        }
+    ],
+    "5": [
+        {
+            "dia-comeco": 8,
+            "dia-fim": 0,
+            "evento": "Feriado nacional: Corpus Christi",
+            "tipo": 1
+        },
+        {
+            "dia-comeco": 9,
+            "dia-fim": 10,
+            "evento": "Recesso acadêmico",
+            "tipo": 1
+        },
+        {
+            "dia-comeco": 12,
+            "dia-fim": 0,
+            "evento": "Último dia para entrega das Atividades Complementares (alunos concluintes, exceto Medicina)",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 14,
+            "dia-fim": 0,
+            "evento": "Reunião do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 22,
+            "dia-fim": 0,
+            "evento": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        }
+    ],
+    "6": [
+        {
+            "dia-comeco": 7,
+            "dia-fim": 0,
+            "evento": "Colação de grau - Medicina",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 8,
+            "dia-fim": 0,
+            "evento": "Término do semestre para cursos anuais e semestrais, exceto para Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia,  Pedagogia e 5.ª série do curso de Psicologia",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 10,
+            "dia-fim": 15,
+            "evento": "Reposição/recuperação de aulas, exceto para Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia, Pedagogia e 5.ª série do curso de Psicologia",
+            "tipo": 2
+        },
+        {
+            "dia-comeco": 12,
+            "dia-fim": 0,
+            "evento": "Reunião do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 15,
+            "dia-fim": 0,
+            "evento": "Término do 1.º semestre (incluindo exames finais) para os cursos de Ciências da Religião, Educação Especial Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 15,
+            "dia-fim": 0,
+            "evento": "Último dia para publicação de notas do bimestre",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 17,
+            "dia-fim": 18,
+            "evento": "Profissionalização Docente Intensiva",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 17,
+            "dia-fim": 22,
+            "evento": "Exames finais",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 20,
+            "dia-fim": 0,
+            "evento": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 24,
+            "dia-fim": 0,
+            "evento": "nício das aulas para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 24,
+            "dia-fim": 29,
+            "evento": "Recesso acadêmico",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 31,
+            "dia-fim": 0,
+            "evento": "Início das aulas",
+            "tipo": 0
+        }
+    ],
+    "7": [
+        {
+            "dia-comeco": 4,
+            "dia-fim": 0,
+            "evento": "Último dia para os alunos matriculados em 2023/2 (regime anual) e 2023-2 (regime semestral) requererem dispensa de disciplina, exame de aproveitamento de estudos e matrícula em disciplina extracurricular e fora da série",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 5,
+            "dia-fim": 0,
+            "evento": "Colação de Grau - Direito, do Campus Joinville",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 9,
+            "dia-fim": 0,
+            "evento": "Reunião do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 11,
+            "dia-fim": 0,
+            "evento": "Último dia para os alunos matriculados em 2022/2 (regime anual) e 2023-1 (regime semestral) solicitarem matrícula fora do prazo",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 12,
+            "dia-fim": 0,
+            "evento": "Colação de grau - Química, do Campus São Bento do Sul",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 14,
+            "dia-fim": 0,
+            "evento": "Dia da Univille",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 14,
+            "dia-fim": 0,
+            "evento": "Último dia para os alunos matriculados em 2023/2 (regime anual) e 2023-2 (regime semestral) requererem alteração de matrícula",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 14,
+            "dia-fim": 18,
+            "evento": "Semana da Comunidade",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 19,
+            "dia-fim": 0,
+            "evento": "Colação de grau - Administração, Ciências Contábeis, Comércio Exterior, Ciências Econômicas e Educação Escolar Quilombola, do Campus Joinville",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 23,
+            "dia-fim": 24,
+            "evento": "Colação de grau especial em Joinville",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 24,
+            "dia-fim": 0,
+            "evento": "Colação de grau especial em São Bento do Sul",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 24,
+            "dia-fim": 0,
+            "evento": " Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 26,
+            "dia-fim": 0,
+            "evento": "Colação de grau - Administração e Ciências Contábeis, do Campus São Bento do Sul",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 26,
+            "dia-fim": 0,
+            "evento": "Colação de grau - Artes Visuais, Pedagogia, Letras / Inglês, História e Ciências Biológicas (Licenciatura), do Campus Joinville",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 31,
+            "dia-fim": 0,
+            "evento": "Último dia para os alunos que renovaram matrícula entregarem o contrato de prestação de serviços educacionais à Central de Atendimento Acadêmico",
+            "tipo": 0
+        }
+    ],
+    "8":[
+        {
+            "dia-comeco": 7,
+            "dia-fim": 0,
+            "evento": "Feriado nacional: Independência do Brasil",
+            "tipo": 1
+        },
+        {
+            "dia-comeco": 8,
+            "dia-fim": 0,
+            "evento": "Feriado municipal em São Francisco do Sul: Dia da Padroeira",
+            "tipo": 1
+        },
+        {
+            "dia-comeco": 8,
+            "dia-fim": 9,
+            "evento": "Recesso acadêmico",
+            "tipo": 1
+        },
+        {
+            "dia-comeco": 13,
+            "dia-fim": 0,
+            "evento": "Reunião do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 13,
+            "dia-fim": 14,
+            "evento": "Integração dos novos profissionais da educação",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 21,
+            "dia-fim": 0,
+            "evento": " Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 23,
+            "dia-fim": 0,
+            "evento": "Feriado municipal em São Bento do Sul: aniversário da cidade",
+            "tipo": 1
+        }
+    ],
+    "9": [
+        {
+            "dia-comeco": 2,
+            "dia-fim": 0,
+            "evento": "Último dia para publicação de notas do bimestre",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 11,
+            "dia-fim": 0,
+            "evento": "Reunião do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 12,
+            "dia-fim": 0,
+            "evento": "Feriado nacional: Dia de Nossa Senhora Aparecida",
+            "tipo": 1
+        },
+        {
+            "dia-comeco": 13,
+            "dia-fim": 0,
+            "evento": "Último dia para solicitação de prova de aproveitamento de estudos",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 15,
+            "dia-fim": 0,
+            "evento": "Dia do Professor e do Auxiliar de Administração Escolar - feriado escolar",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 19,
+            "dia-fim": 0,
+            "evento": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 31,
+            "dia-fim": 0,
+            "evento": "Último dia para entrega das atividades complementares (alunos concluintes, exceto Medicina)",
+            "tipo": 0
+        }
+    ],
+    "10": [
+        {
+            "dia-comeco": 2,
+            "dia-fim": 0,
+            "evento": "Feriado nacional: Finados",
+            "tipo": 1
+        },
+        {
+            "dia-comeco": 8,
+            "dia-fim": 0,
+            "evento": "Reunião do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 15,
+            "dia-fim": 0,
+            "evento": "Feriado nacional: Proclamação da República",
+            "tipo": 1
+        },
+        {
+            "dia-comeco": 23,
+            "dia-fim": 0,
+            "evento": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        }
+    ],
+    "11":[
+        {
+            "dia-comeco": 2,
+            "dia-fim": 0,
+            "evento": "Término do semestre, exceto para os cursos de Ciências da Religião, Educação Especial, Educação Escolar, Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 4,
+            "dia-fim": 9,
+            "evento": "Reposição/recuperação de aulas, exceto para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia",
+            "tipo": 2
+        },
+        {
+            "dia-comeco": 5,
+            "dia-fim": 0,
+            "evento": "Colação de grau - Medicina",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 9,
+            "dia-fim": 0,
+            "evento": "Último dia para publicação de notas do bimestre",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 11,
+            "dia-fim": 16,
+            "evento": "Exames finais, exceto para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 11,
+            "dia-fim": 16,
+            "evento": "Reposição/recuperação de aulas para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 13,
+            "dia-fim": 0,
+            "evento": "Reunião do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 15,
+            "dia-fim": 0,
+            "evento": "Data limite para envio de projetos de pesquisa para análise do Comitê de Ética em Pesquisa",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 18,
+            "dia-fim": 21,
+            "evento": " Exames finais para os cursos de Ciências da Religião, Educação Especial, Educação Escolar Quilombola, Geografia e Pedagogia e para a 5.ª série do curso de Psicologia",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 20,
+            "dia-fim": 0,
+            "evento": " Último dia para publicação de notas de exames finais e trabalhos de conclusão de curso (TCC/TCE/monografia/trabalho de graduação)",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 22,
+            "dia-fim": 0,
+            "evento": "Encerramento das atividades",
+            "tipo": 0
+        },
+        {
+            "dia-comeco": 25,
+            "dia-fim": 0,
+            "evento": "Natal",
             "tipo": 0
         }
     ]
