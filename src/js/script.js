@@ -65,9 +65,8 @@ function fecthEvents(month){
         let output = "";
 
         for(let item of events[month]){
-            output += `
-                <p class="event-day">${item.dia} - ${item.evento}</p>
-            `;
+            output += 
+            `<p class="event-p">${item.dia_comeco} ${item.dia_fim > 0 ? ` a ${item.dia_fim} ` : ''} - ${item.evento}</p>`;
             document.querySelector(".events").innerHTML = output;
         }
 }
@@ -105,12 +104,15 @@ function showCalendar(year, month){
                 cell = document.createElement("td");
                 celltext = document.createTextNode(date);
                 if(date === today.getDate() && year === today.getFullYear() && month === today.getMonth()){
-                    cell.classList.add("today");
+                    cell.classList.add("event-day");
                 }
 
                 for(let item of events[month]){
-                    if(date == item.dia){
-                        cell.classList.add("today");
+                    if(date == item.dia_comeco && item.tipo == 1 || date == item.dia_fim){
+                        cell.classList.add("event-day");
+                    }
+                    else if(date == item.dia_comeco && item.tipo == 2 || date == item.dia_fim){
+                        cell.classList.add("event-type2");
                     }
                 }
                 

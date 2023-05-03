@@ -71,7 +71,6 @@ body{
   display: flex;
   flex-direction: column;
   padding-left: 20px;
-  background-color: aqua;
 }
 .button {
 	display: inline-block;
@@ -84,9 +83,21 @@ body{
 	border-radius: .25rem;
   cursor: pointer;
   background-color: white;
-}
-.today{
+} 
+.event-day{
   background-color: #82c55b;
+  border: 2px solid #095431;
+  font-weight: bold;
+}
+.form{
+  padding-bottom: 15px;
+}
+.event-p{
+  border-bottom: 1px solid;
+  border-color:#005F36;
+}
+.event-type2{
+  background-color: #EAE956;
   border: 2px solid #095431;
   font-weight: bold;
 }
